@@ -1,9 +1,48 @@
-<html>
+
+<HTML>
     <head>
-
+        <title>Somniac</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style_landing.css') }}">
     </head>
-
     <body>
-        <h1>Recommendations</h1>
+        <div class = "banner">
+            <div class = "navbar">
+                <img src="{{url_for('static', filename='logo.jpeg')}}" class="logo"/>
+                <ul>
+                    <li><a href = "{{url_for('home_page')}}">Home</li>
+                    <li><a href = "{{url_for('display_profile')}}">Profile</li>
+                    <li><a href = "{{url_for('display_sleep_stats')}}">Sleep Statistics</li>
+                    <li><a href = "{{url_for('display_recommendations')}}">Recommendations</li>
+                    <li><a href = "{{url_for('display_nap')}}">Take a Nap</li>
+                </ul>
+            </div>
+            <div class = "content">
+
+                <img src="{{url_for('static', filename='sleep_pic1.jpg')}}" id="sleep_pic1" />
+                <img src="{{url_for('static', filename='sleep_pic2.jpg')}}" id="sleep_pic2" />
+
+                <div>
+                    <form method="get" target="_blank">
+                        <label id="name">Enter your name: </label><input id="name"><br>
+                        <label id="email">Enter your email address: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="email"><br>
+                        <label id="age">Enter your age: </label><input id="age">
+                        <br><label id="gender">Gender: </label>
+                        <input type="radio" name="gender" value="male" id="gender"> Male
+                        <input type="radio" name="gender" value="female" id="gender"> Female
+
+                        <br><label id="sleep_time">Enter your sleep duration in hours: </label><input id="sleep_time"><br>
+                        <label id="awakenings">How many times did you wake up at night? </label><input id="awakenings"><br>
+                        <label id="caffeine">How much caffeine did you take in the last 24 hours? (in ml) </label><input id="caffeine"><br>
+                        <label id="alcohol">What is your alcohol intake in the last week? (count) </label><input id="alcohol"><br>
+                        <label id="smoke">Do you smoke? (1 for yes and 0 for no) </label><input id="smoke"><br>
+                        <label id="exercise">How often do you exercise per week? (number of days) </label><input id="exercise"><br>
+
+                        
+            
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
-</html>
+</HTML>

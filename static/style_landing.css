@@ -130,3 +130,69 @@
 .newnavbar ul li:hover::after{
     width: 100%;
 }
+
+#sleep_pic1{
+    position: absolute;
+    top:25;
+    right:180px;
+    height:250px;
+    width:290px;
+    opacity: 0.7;
+    border-radius: 90%;
+
+}
+
+
+#sleep_pic2{
+    position: absolute;
+    top:25;
+    left:150px;
+    height:250px;
+    width:290px;
+    opacity: 0.7;
+    border-radius: 90%;
+
+}
+
+
+#name
+{
+    font-size: 20;
+}
+
+#email
+{
+    font-size: 20;
+}
+#age
+{
+    font-size: 20;
+}
+#gender
+{
+    font-size: 20;
+}
+#sleep_time
+{
+    font-size: 20;
+}
+#awakenings
+{
+    font-size: 20;
+}
+#caffeine
+{
+    font-size: 20;
+}
+#alcohol
+{
+    font-size: 20;
+}
+#smoke
+{
+    font-size: 20;
+}
+#exercise
+{
+    font-size: 20;
+}
