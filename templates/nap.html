@@ -1,0 +1,39 @@
+<HTML>
+    <head>
+        <title>Somniac</title>
+        <link rel = "stylesheet" href = "{{ url_for('static', filename='style_landing.css') }}"/>
+    </head>
+    <body>
+        <div class = "banner">
+            <div class = "navbar">
+                <img src = "{{url_for('static', filename='logo.jpeg')}}" class = "logo" />
+                <ul>
+                    <li><a href = "{{url_for('home_page')}}">Home</li>
+                    <li><a href = "{{url_for('display_profile')}}">Profile</li>
+                    <li><a href = "{{url_for('display_sleep_stats')}}">Sleep Statistics</li>
+                    <li><a href = "{{url_for('display_recommendations')}}">Recommendations</li>
+                    <li><a href = "{{url_for('display_nap')}}">Take a Nap</li>
+                </ul>
+            </div>
+            <div class = "newcontent">
+                <h1> TAKE A NAP</h1>
+                <p>Helping you get the sleep you deserve</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class = "newnavbar">
+                    <ul>
+                        <li><a href="{{url_for('static',filename='5 minutes - Energizing.mp3')}}">5 mins</a></li>
+                        <li><a href="{{url_for('static',filename='10 minutes - Energizing.mp3')}}">10 mins</a></li>
+                        <li><a href="{{url_for('static',filename='15 minutes - Energizing.mp3')}}">15 mins</a></li>
+                        <li><a href="{{url_for('static',filename='20 minutes - Relaxing.mp3')}}">20 mins</a></li>
+                        <li><a href="{{url_for('static',filename='25 minutes - Relax and Focus.mp3')}}">25 mins</a></li>
+                        <li><a href="{{url_for('static',filename='30 minutes - Energizing.mp3')}}">30 mins</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</HTML>
