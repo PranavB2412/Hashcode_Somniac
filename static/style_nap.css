@@ -7,9 +7,10 @@
 .banner{
     width: 100%;
     height : 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(profile_background_image.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(background.jpg);
     background-size: cover;
     background-position: center;
+    opacity: 0.95;
 }
 
 .navbar{
@@ -57,22 +58,65 @@
     width: 100%;
 }
 
-.content{
+.newcontent{
     width:100%;
     position:absolute;
     top:50%;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
+    bottom: -10px;
 }
 
-.content h1{
-    font-size: 50px;
+
+
+.newcontent h1{
+    font-size: 60px;
     margin-top: 80px;
+    color: #fff;
+    bottom: -10px;
+    font-family: 'Times New Roman', serif;
 }
 
-.content p{
+.newcontent p{
     margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
+    font-weight: 200;
+    line-height: 50px;
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    bottom: -10px;
+}
+.newnavbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.newnavbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.newnavbar ul li::after{
+    content:'';
+    height : 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left : 0;
+    bottom:-10px;
+    transition : 0.5s;
+}
+
+.newnavbar ul li:hover::after{
+    width: 100%;
+}
+.newnavbar img{
+    width : 120px;
+    height: 120px;
+    opacity: 0.70 ;
+    left: 0;
+    cursor : pointer;
 }
