@@ -14,7 +14,7 @@ def display_profile():
 
 @app.route('/sleep_statistics')
 def display_sleep_stats():
-    return render_template('sleep_stats.html')
+    return render_template('sleepStatistics.html')
 
 
 @app.route('/recommendations')

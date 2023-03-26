@@ -77,6 +77,98 @@
     line-height: 25px;
 }
 
+
+#sleep_pic1{
+    position: absolute;
+    top:25;
+    right:180px;
+    height:250px;
+    width:290px;
+    opacity: 0.7;
+    border-radius: 90%;
+
+}
+
+
+#sleep_pic2{
+    position: absolute;
+    top:25;
+    left:150px;
+    height:250px;
+    width:290px;
+    opacity: 0.7;
+    border-radius: 90%;
+
+}
+
+.logo_1{
+    width : 240px;
+    height: 240px;
+    left: 0;
+    cursor : pointer;
+}
+
+/*
+*{
+    margin : 0;
+    padding : 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height : 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width : 120px;
+    height: 120px;
+    opacity: 0.50 ;
+    left: 0;
+    cursor : pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content:'';
+    height : 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left : 0;
+    bottom:-10px;
+    transition : 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
 .newcontent{
     width:100%;
     position:absolute;
@@ -94,12 +186,14 @@
     margin-top: 80px;
     color: #fff;
     bottom: -10px;
+    font-family: 'Times New Roman', serif;
 }
 
 .newcontent p{
     margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
+    font-weight: 200;
+    line-height: 50px;
+    font-family: 'Brush Script MT', cursive;
     color: #fff;
     bottom: -10px;
 }
@@ -130,69 +224,11 @@
 .newnavbar ul li:hover::after{
     width: 100%;
 }
-
-#sleep_pic1{
-    position: absolute;
-    top:25;
-    right:180px;
-    height:250px;
-    width:290px;
-    opacity: 0.7;
-    border-radius: 90%;
-
+.newnavbar img{
+    width : 120px;
+    height: 120px;
+    opacity: 0.70 ;
+    left: 0;
 }
 
-
-#sleep_pic2{
-    position: absolute;
-    top:25;
-    left:150px;
-    height:250px;
-    width:290px;
-    opacity: 0.7;
-    border-radius: 90%;
-
-}
-
-
-#name
-{
-    font-size: 20;
-}
-
-#email
-{
-    font-size: 20;
-}
-#age
-{
-    font-size: 20;
-}
-#gender
-{
-    font-size: 20;
-}
-#sleep_time
-{
-    font-size: 20;
-}
-#awakenings
-{
-    font-size: 20;
-}
-#caffeine
-{
-    font-size: 20;
-}
-#alcohol
-{
-    font-size: 20;
-}
-#smoke
-{
-    font-size: 20;
-}
-#exercise
-{
-    font-size: 20;
-}
+*/
